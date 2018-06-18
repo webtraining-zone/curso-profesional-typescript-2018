@@ -21,3 +21,12 @@ tsc src/03-special-types/special-types.ts -w
 ```
 tsc src/05-modifiers/modifiers.ts --watch --target "ES2015"
 ```
+
+## Webpack
+```
+sudo npm install -g webpack webpack-command
+npm init
+npm install --save-dev typescript awesome-typescript-loader source-map-loader
+npm install --save-dev webpack webpack-command
+```
+
