@@ -1,5 +1,16 @@
 # Curso Profesional de TypeScript
 
+¿Vienes del mundo backend y JavaScript como que no es lo tuyo? ¿extrañas trabajar con Programación Orientada a Objetos en JavaScript? ¿has escuchado de un lenguaje llamado TypeScript pero no sabes si te puede servir en tu trabajo diario? 
+
+Si respondiste positivamente al menos a una pregunta entonces este curso introductorio a TypeScript es definitivamente para ti.
+
+
+**Curso completo disponible en: [Curso Profesional Typescript](https://webtraining.zone/cursos/curso-profesional-de-typescript)**
+
+
+![Curso Profesional TypeScript](https://webtraining.zone/img/metadata-courses/curso-typescript.jpg)
+
+
 ## Instalación
 ```
 npm install -g typescript
