@@ -19,7 +19,13 @@ tsc --version
 
 ## Compilación de archivos fuente
 ```
-tsc src/01-compiler-usage/compiler-usage.ts 
+tsc src/01-compiler-usage/compiler-usage.ts
+```
+
+## Pruebas sencillas con Node.js + Nodemon
+```
+npm install -g nodemon
+nodemon src/01-compiler-usage/compiler-usage.js
 ```
 
 ### Agregando un "watcher"
