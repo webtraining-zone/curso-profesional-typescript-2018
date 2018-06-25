@@ -3,7 +3,9 @@ import {SignalsCardsComponent} from "./components/signals-cards/signals-cards.co
 class App {
 
     render() {
-        new SignalsCardsComponent().render();
+        new SignalsCardsComponent({
+            selector: '#signals-cards-container'
+        }).render();
     }
 }
 

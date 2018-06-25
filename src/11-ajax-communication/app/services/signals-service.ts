@@ -4,7 +4,7 @@ import {AxiosPromise} from "axios";
 import {SignalsResponse} from "../models/signals-response";
 
 export class SignalsService {
-    private serviceURL = `${ApiConfig.BASE_URL}/traffic-signals/v1/signals`;
+    private serviceURL = `${ApiConfig.BASE_URL}:${ApiConfig.BASE_PORT}/traffic-signals/v1/signals`;
     private _http: HttpClient;
 
     constructor() {
