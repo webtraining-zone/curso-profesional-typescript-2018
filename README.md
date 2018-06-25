@@ -47,3 +47,22 @@ npm install --save-dev typescript awesome-typescript-loader source-map-loader
 npm install --save-dev webpack webpack-command
 ```
 
+## @types
+
+1) Se instalan los paquetes básicos
+```
+npm install handlebars axios d3 --save
+```
+
+2) Si la biblioteca no tiene los `@types` especificados directamente
+entonces los podemos instalar manualmente:
+```
+npm install @types/d3 --save-dev
+```
+
+3) En el caso de Handlebars para que Webpack lo "empaquete" es necesario
+instalar un *loader*
+
+```
+npm install handlebars-loader --save-dev
+```

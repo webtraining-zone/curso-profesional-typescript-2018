@@ -2,11 +2,11 @@ import {SignalsCardsComponent} from "./components/signals-cards/signals-cards.co
 
 class App {
 
-    render() {
+    start() {
         new SignalsCardsComponent({
             selector: '#signals-cards-container'
         }).render();
     }
 }
 
-new App().render();
+new App().start();
