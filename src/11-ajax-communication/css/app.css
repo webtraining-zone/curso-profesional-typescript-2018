@@ -1,0 +1,25 @@
+body {
+    background-color: #f5f6f7;
+}
+
+.b-item {
+    fill: #37b7c4;
+}
+
+.b-item:hover {
+    fill: orange;
+}
+
+/* Complex bars */
+
+.bar {
+    fill: #37b7c4;
+}
+
+.bar:hover {
+    fill: orange;
+}
+
+.axis--x path {
+    display: none;
+}
