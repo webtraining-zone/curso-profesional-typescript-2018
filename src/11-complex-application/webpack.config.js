@@ -14,9 +14,9 @@ module.exports = {
     resolve: {
         // Add '.ts' and '.tsx' as resolvable extensions.
         extensions: [".ts", ".tsx", ".js", ".json"],
-        alias: {
-            template: __dirname + '/app/templates'
-        }
+        // alias: {
+            // template: __dirname + '/app/templates'
+        // }
     },
 
     module: {

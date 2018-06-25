@@ -5,6 +5,7 @@ import {BaseComponent} from "../../core/components/base.component";
 import {RenderedComponent} from "../../core/components/rendered.component";
 import {ComponentConstructorOptions} from "../../core/options/component-constructor-options";
 import {ApiConfig} from "../../config/api-config";
+import {StringUtils} from "../../utils/string-utils";
 
 export class SignalsCardsComponent extends BaseComponent implements RenderedComponent {
 
@@ -36,15 +37,9 @@ export class SignalsCardsComponent extends BaseComponent implements RenderedComp
                 imageURL: `${ApiConfig.BASE_URL}/traffic-signals-images/sct/${signal.filename}`,
                 name: signal.name,
                 description: signal.description,
-                summary: this.cutString(signal.description)
+                summary: StringUtils.cutString(signal.description)
             }
         });
     }
 
-    cutString(inputString: string, maxLength: number = 255) {
-        const MAX_LENGTH_SUMMARY = maxLength;
-        const SEPARATOR = ' ';
-        if (inputString.length <= MAX_LENGTH_SUMMARY) return inputString;
-        return inputString.substr(0, inputString.lastIndexOf(SEPARATOR, MAX_LENGTH_SUMMARY)) + '...';
-    }
 }
