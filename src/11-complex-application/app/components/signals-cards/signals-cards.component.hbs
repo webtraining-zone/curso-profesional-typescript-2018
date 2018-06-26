@@ -4,6 +4,21 @@
             <h1 class="padding-top-sm">Signals</h1>
         </div>
 
+        <div class="content">
+            <div class="field">
+                <div class="control">
+                    <div class="select">
+                        <select name="signalTypes" id="signalTypes">
+                            <option value="-1">Filtrar por tipo:</option>
+                            {{#each signalTypes}}
+                                <option value="{{ id }}">{{ name }}</option>
+                            {{/each}}
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="columns is-multiline">
             {{#each signals}}
                 <div class="column is-one-quarter-desktop is-one-third-tablet">
